@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+$theme-colors: (
+  "primary":    #3b69a5ff,
+  "secondary":  #f2f2f2ff,
+  "success":    #50DCAAff,
+  "info":       #3B9EA5ff,
+  "warning":    #cc5959ff,
+  "danger":     #cc5959ff,
+  "light":      #f2f2f2ff,
+  "dark":       #3b69a5ff
+);
+
+$font-size-base: 1.2rem;
+$font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
