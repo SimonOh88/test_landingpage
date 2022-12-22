@@ -9,6 +9,7 @@ import { TrialcalloutComponent } from './trialcallout/trialcallout.component';
 import { FeaturecardComponent } from './featurecard/featurecard.component';
 import { HeroComponent } from './hero/hero.component';
 import { WayfindingComponent } from './wayfinding/wayfinding.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WayfindingComponent } from './wayfinding/wayfinding.component';
     TrialcalloutComponent,
     FeaturecardComponent,
     HeroComponent,
-    WayfindingComponent
+    WayfindingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
