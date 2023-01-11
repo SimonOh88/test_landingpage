@@ -10,6 +10,7 @@ import { FeaturecardComponent } from './featurecard/featurecard.component';
 import { HeroComponent } from './hero/hero.component';
 import { WayfindingComponent } from './wayfinding/wayfinding.component';
 import { FooterComponent } from './footer/footer.component';
+import { ThemeswitchComponent } from './themeswitch/themeswitch.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     FeaturecardComponent,
     HeroComponent,
     WayfindingComponent,
-    FooterComponent
+    FooterComponent,
+    ThemeswitchComponent
   ],
   imports: [
     BrowserModule,

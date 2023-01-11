@@ -1,17 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
-
 $theme-colors: (
-  "primary":    #3b69a5ff,
-  "secondary":  #f2f2f2ff,
-  "success":    #50DCAAff,
+  "secondary":    #3b69a5ff,
+  "primary":  #f2f2f2ff,
+  "success":    #3b69a5ff,
   "info":       #3B9EA5ff,
   "warning":    #cc5959ff,
   "danger":     #cc5959ff,
-  "light":      #f2f2f2ff,
-  "dark":       #3b69a5ff
+  "dark":      #f2f2f2ff,
+  "light":       #3b69a5ff,
 );
 
-
+$body-bg: #23272a;
+$card-bg: #99aab5;
+$body-color: #fff;
 $font-size-base: 1rem;
 $font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
